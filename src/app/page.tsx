@@ -3,7 +3,7 @@ import { capitalize } from '@/helper/capitalize'
 import Sparkle from 'react-sparkle'
 
 
-export default function Home({searchParams}) {
+export default function Home({searchParams}: any) {
   return (
     <>
     {/* <Confetti

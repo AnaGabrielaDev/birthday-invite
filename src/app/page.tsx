@@ -1,55 +1,41 @@
 'use client'
-import { capitalize } from '@/helper/capitalize'
-import Sparkle from 'react-sparkle'
-
+import { capitalize } from "@/helper/capitalize";
+import "./style.css";
 
 export default function Home({searchParams}: any) {
   return (
-    <>
-    {/* <Confetti
-      width={1000}
-      height={500}
-      colors={['pink', 'purple']}
-      confettiSource={{x: 2, y:2, w:2, h:2}}
-    /> */}
-
-    <div className="flex flex-col justify-between items-center h-screen w-screen bg-pink-400">
-        <Sparkle
-          color={'#fff'}
-          count={50}
-          minSize={5}
-          maxSize={8}
-          overflowPx={50}
-          fadeOutSpeed={60}
-          newSparkleOnFadeOut={true}
-          flicker={true}
-          flickerSpeed={'normal'}
-        />
-
-        <div>
-          <h1 className="text-white mt-6 text-3xl">🎀 {capitalize(searchParams.name)}, Você está convidado(a) para a festa de aniversário! 🎀</h1>
-          <h2 className="text-white text-2xl">Tema: Patricinhas dos anos 2000</h2>
-        </div>
-
-        <div className='text-white'>
-          <ul>
-            <li>
-              endereco: minha casa
-            </li>
-            <li>
-              horario: 19:00 horas
-            </li>
-            <li>
-              data: 24 de novembro
-            </li>
-            <li>
-              vestimenta: estilo anos #2000
-            </li>
-          </ul>
-        </div>
-      <p className='text-white mt-90 text-lg'>Lembre-se, nas festas de aniversários... USAMOS ROSA!</p>
+    <div className="App">
+      <Card name={searchParams.name} />
     </div>
-    </>
-    
-  )
+  );
 }
+export function Card ({name}: any) { 
+  return(
+  <>
+  <div className="birthdayCard flex flex-col justify-between items-center h-screen w-screen bg-pink-400">
+    <div className="cardFront">
+      <h3 className="happy">20 anos de Gaby</h3>
+      <div className="balloons">
+        <div className="balloonOne" />
+        <div className="balloonTwo" />
+        <div className="balloonThree" />
+        <div className="balloonFour" />
+      </div>
+    </div>
+    <div className="cardInside">
+      <h3 className="back">Oie!</h3>
+      <p className="p-0 m-0">Querida, {capitalize(name)}</p>
+      <p className="p-0 m-0 text-xs	">
+        Eu tenho uma novidade incrível para te contar: eu vou fazer 20 anos e quero comemorar com você!
+
+        A minha festa vai ser super especial, porque o tema é patricinhas dos anos 2000, aquela época que a gente adora relembrar. Você sabe, né? Muito rosa, brilho, saia plissada, bota de cano alto, tiara, gloss e tudo mais que a gente ama!
+
+        Então, prepare-se para arrasar no visual estilo anos 2000(obrigatório) e venha curtir comigo e com as pessoas que eu amo. Vai ser uma noite inesquecível!
+        Estou ansiosa para te ver!
+      </p>
+      <p id="kiss">Beijos,</p>
+      <p className="name">Ana Gabriela</p>
+    </div>
+  </div>
+  </>
+)}

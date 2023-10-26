@@ -5,7 +5,7 @@ export function Card ({name}: any) {
     <>
     <div className="birthdayCard flex flex-col justify-between items-center h-screen w-screen bg-pink-400">
       <div className="cardFront">
-        <h3 className="happy">20 anos de Gaby</h3>
+        <h3 className="happy">Clique para abrir o cartão</h3>
         <div className="balloons">
           <div className="balloonOne" />
           <div className="balloonTwo" />
@@ -14,9 +14,9 @@ export function Card ({name}: any) {
         </div>
       </div>
       <div className="cardInside">
-        <h3 className="back">Oie!</h3>
-        <p className="p-0 m-0">Querida, {capitalize(name)}</p>
-        <p className="p-0 m-0 text-xs	">
+        <h3 className="back">Gaby faz 20!</h3>
+        <p className="">Querida, {capitalize(name)}</p>
+        <p className="">
           Eu tenho uma novidade incrível para te contar: eu vou fazer 20 anos e quero comemorar com você!
   
           A minha festa vai ser super especial, porque o tema é patricinhas dos anos 2000, aquela época que a gente adora relembrar. Você sabe, né? Muito rosa, brilho, saia plissada, bota de cano alto, tiara, gloss e tudo mais que a gente ama!

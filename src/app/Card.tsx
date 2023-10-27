@@ -5,7 +5,7 @@ export function Card ({name}: any) {
     <>
     <div className="birthdayCard flex flex-col justify-between items-center h-screen w-screen bg-pink-400">
       <div className="cardFront">
-        <h3 className="happy">Clique para abrir o cartão</h3>
+        <h3 className="happy" onClick={() => {new Audio("/audio/msc.mp3").play()}}>Clique para abrir o cartão</h3>
         <div className="balloons">
           <div className="balloonOne" />
           <div className="balloonTwo" />

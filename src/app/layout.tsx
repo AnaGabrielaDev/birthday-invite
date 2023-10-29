@@ -7,6 +7,7 @@ const inter = Cookie({weight: "400", subsets: ["latin"]})
 export const metadata: Metadata = {
   title: 'Gaby birthday'}
 
+
 export default function RootLayout({
   children,
 }: {
@@ -14,6 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="img/icon.png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

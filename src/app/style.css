@@ -8,8 +8,8 @@ body {
   
   .birthdayCard {
     position: relative;
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 28rem;
     cursor: pointer;
     transform-style: preserve-3d;
     transform: perspective(2500px);
@@ -33,8 +33,8 @@ body {
   .cardInside {
     position: absolute;
     background-color: #fff;
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 28rem;
     z-index: -1;
     left: 0;
     top: 0;
@@ -43,8 +43,8 @@ body {
   .cardFront {
     position: relative;
     background-color: #fff;
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 28rem;
     overflow: hidden;
     transform-origin: left;
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
@@ -124,6 +124,7 @@ body {
   }
   
   p {
+    padding-left: 2px;
     font-size: 1rem;
     color: black;
   }
@@ -131,13 +132,13 @@ body {
   #kiss {
     position: absolute;
     left: 5%;
-    top: 16rem;
+    top: 26rem;
     color: rgb(236, 54, 169);
   }
   .name {
     position: absolute;
     right: 5%;
-    top: 16rem;
+    top: 26rem;
     color: rgb(236, 54, 169);
   }
   
@@ -148,3 +149,9 @@ body {
     outline-style: dotted;
   }
   
+  .img-gaby {
+    mask-border: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+    clip-path: polygon(-41% 0,50% 91%, 141% 0);
+    width: 10rem;
+    height: 12rem;
+  }

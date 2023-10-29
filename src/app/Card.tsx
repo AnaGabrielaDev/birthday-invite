@@ -5,7 +5,7 @@ export function Card ({name}: any) {
     <>
     <div className="birthdayCard flex flex-col justify-between items-center h-screen w-screen bg-pink-400">
       <div className="cardFront" onClick={() => {new Audio("/audio/msc.mp3").play()}}>
-        <h3 className="happy">Clique para abrir o cartão</h3>
+        <h3 className="happy">Clique para abrir o convite</h3>
         <div className="flex">
         <img className="img-gaby" src="img/me.jpeg" alt="foto Gaby" />
         <img className="img-gaby" src="img/me.jpeg" alt="foto Gaby" />

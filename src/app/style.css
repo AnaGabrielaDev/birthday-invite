@@ -153,5 +153,6 @@ body {
     mask-border: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
     clip-path: polygon(-41% 0,50% 91%, 141% 0);
     width: 10rem;
-    height: 12rem;
+    height: 9rem;
+    transform: scaleX(-1);
   }

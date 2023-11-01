@@ -8,7 +8,7 @@ export function Card ({name}: any) {
         <h3 className="happy">Clique para abrir o convite</h3>
         <div className="flex">
         <img className="img-gaby" src="img/me.jpeg" alt="foto Gaby" />
-        <img className="img-gaby" src="img/me.jpeg" alt="foto Gaby" />
+        <img className="img-gaby" src="img/paty.jpg" alt="foto Gaby" />
         </div>
 
         <div className="balloons">
@@ -32,7 +32,7 @@ export function Card ({name}: any) {
         <p>local: minha casa</p>
 
         <p>data: 25 de novembro</p>
-        <p>sugestões de presentes: sandálias/saltos: 37, gosto de vestidos longos e amo livros mas fique à vontade para escolher o que você acha que mais combina comigo (um hb20 combinaria kkkk)! </p>
+        <p>sugestões de presentes: sandálias/saltos: 37, vestidos longos, perfumes doces (ex: luna tradicional) mas fique à vontade para escolher o que você acha que mais combina comigo (um hb20 combinaria kkkk)! </p>
         <p id="kiss">Beijos,</p>
         <p className="name">Ana Gabriela</p>
       </div>

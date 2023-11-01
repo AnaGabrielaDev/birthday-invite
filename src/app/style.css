@@ -38,7 +38,12 @@ body {
     z-index: -1;
     left: 0;
     top: 0;
+    padding: 1rem;
     box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  }
+
+  h3 .back {
+    margin-bottom: 1rem;
   }
   .cardFront {
     position: relative;
@@ -127,6 +132,8 @@ body {
     padding-left: 2px;
     font-size: 1rem;
     color: black;
+    line-height: 1.1rem;
+    margin-bottom: .5rem;
   }
   
   #kiss {

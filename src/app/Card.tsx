@@ -29,9 +29,9 @@ export function Card ({name}: any) {
           Então, prepare-se para arrasar no visual estilo anos 2000(obrigatório), pode ser uma fantasia de personagem da época, roupas que eram tendências ou até mesmo um look todo rosa e venha curtir comigo e com as pessoas que eu amo. Vai ser uma noite inesquecível!
           Estou ansiosa para te ver!
         </p>
-        <p>local: minha casa</p>
+        <p>local: Laurins Buffet</p>
 
-        <p>data: 25 de novembro</p>
+        <p>data: 24 de novembro</p>
         <p>horário: 18:30h</p>
         <p>sugestões de presentes: sandálias/saltos: 37, vestidos longos, perfumes doces (ex: luna tradicional) mas fique à vontade para escolher o que você acha que mais combina comigo (um hb20 combinaria kkkk)! </p>
         <p id="kiss">Beijos,</p>

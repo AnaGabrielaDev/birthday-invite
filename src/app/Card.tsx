@@ -33,7 +33,7 @@ export function Card ({name}: any) {
 
         <p>data: 24 de novembro</p>
         <p>horário: 18:30h</p>
-        <p>sugestões de presentes: sandálias/saltos: 37, vestidos longos, perfumes doces (ex: luna tradicional) mas fique à vontade para escolher o que você acha que mais combina comigo (um hb20 combinaria kkkk)! </p>
+        <p>sugestões de presentes: sandálias/saltos: 36, vestidos longos, perfumes doces (ex: luna tradicional) mas fique à vontade para escolher o que você acha que mais combina comigo (um hb20 combinaria kkkk)! </p>
         <p id="kiss">Beijos,</p>
         <p className="name">Ana Gabriela</p>
       </div>
